@@ -1,0 +1,461 @@
+{
+    box-sizing: border-box;
+  }
+  .column {
+    float: left;
+    width: 600px;
+    padding: 10px;
+    height: 800px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+   .form{
+
+    height: 700px;
+    width: 1100px;
+    background-color:rgba(255, 255, 255, 0.959);
+   /* margin-left: -210px;
+    margin-top: 300px;  */
+    margin-top: 40px;
+    margin-left: -560px;
+    margin-right: 360px;
+    border-radius: 15px;
+    margin-bottom: 60px;
+
+  } 
+  /* .disc1{
+    
+    margin-top: -50px;
+height: 500px;
+width: 500px;
+border-radius: 100%;
+background-color: black;
+  }
+  .disc2{
+    
+    margin-top: -40px;
+height: 450px;
+width: 450px;
+border-radius: 100%;
+background-color:red;
+margin-left: 50px;
+  }
+  .disc3{
+    
+    margin-top: -30px;
+height: 400px;
+width: 400px;
+border-radius: 100%;
+background-color: blue;
+  } */
+
+
+
+  .disc1{
+display: flex;
+align-items: center;
+justify-content: center; 
+border-radius: 50%;
+
+height: 500px;
+width: 500px;
+background-color:rgb(232, 238, 241);;
+
+  }
+  .disc2{
+display: flex;
+align-items: center;
+justify-content: center;   
+border-radius: 50%;
+height: 400px;
+width: 400px;
+background-color:rgb(230, 229, 229);
+}
+
+  .disc3{
+display: flex;
+align-items: center;
+justify-content: center;   
+height: 250px;
+width: 250px;
+background-color: rgb(231, 231, 246);
+border-radius: 50%;
+  }
+
+  .content{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 200px;
+    width: 300px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 10px;
+    z-index: 999;
+
+      }
+  .innercontainer{
+    height: 85%;
+    width: 85%;
+    background-color: white;
+    border-radius: 10px;
+
+      }
+
+     .left{
+        height: 100%;
+        width: 50%;
+        float: left;
+        /* background-color: green; */
+
+     }
+     .right{
+        height: 100%;
+        width: 50%;
+        float: right;
+        /* background-color: yellow; */
+
+     }
+.hours{
+font-size: 12px;
+  color: blue;
+}
+.budget{
+    font-size: 12px;
+  color: blue;
+}
+.blue{
+    width: 100px;
+    height: 5px;
+    background-color: blue;
+}
+.dolar{
+text-align: center;
+justify-content: center;
+margin-left: 10px;
+font-size: 12px;
+
+}
+.cic{
+  margin-left: 58px;
+    height: 35px;
+    width: 35px;
+    background-color: rgb(26, 19, 227);
+    border-radius: 100%;
+    margin-top: -30px;
+
+}
+.cic1{
+    margin-left: 55px;
+      height: 35px;
+      width: 35px;
+      background-color: rgb(255, 0, 183);
+      border-radius: 100%;
+      margin-top: -30px;
+
+  }
+    .upcontainer{
+        margin: auto;
+        font-family: sans-serif;
+        border-radius: 10px;
+        margin-bottom: 2px;
+        height: 40%;
+        width: 90%;
+        background-color: rgba(212, 206, 206, 0.7);
+
+     }
+     .downcontainer{
+        margin: auto;
+        border-radius: 10px;
+
+        height: 40%;
+        width: 90%;
+        background-color:rgba(212, 206, 206, 0.7);
+
+     }
+     .show{
+
+    width: 100px;
+    height:50px;
+
+    color: white;
+    margin-left: 45px;
+     }
+     .more{
+        font-family: sans-serif;
+        text-decoration: none;
+        font-size: 12px;
+        color: rgb(0, 2, 128);
+     }
+
+
+
+    .upcontainer1{
+
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        border-radius: 10px;
+        margin-bottom: 2px;
+        height: 60%;
+        width: 90%;
+         background-color: rgb(229, 229, 240); 
+
+     }
+     .downcontainer1{
+        margin: auto;
+        border-radius: 10px;
+        font-size: 11px;
+        height: 20%;
+        width: 90%;
+        /* background-color: orange; */
+
+     }
+     .a{
+      height: 20px;
+      width: 30px;
+      color: blue;
+      background-color: rgb(214, 228, 233);  
+      padding-left: 2px;
+      border-radius: 5px;
+      margin-bottom: 100px;
+
+     }
+     .b{
+        height: 20px;
+        width: 30px;
+        color: rgb(21, 189, 21);
+        background-color: rgb(214, 228, 233);  
+        padding-left: 2px;
+        border-radius: 5px;
+
+       }
+       .c{
+        height: 20px;
+        width: 30px;
+        color: rgb(225, 29, 167);
+        background-color:rgb(233, 214, 224);  
+        padding-left: 2px;
+        border-radius: 5px;
+
+
+       }
+
+
+     .piechart {
+
+        display: flex;
+            justify-content: center;
+            align-items: center;
+
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        background-image: conic-gradient(
+             rgb(180, 179, 179) 70deg, 
+            rgb(15, 18, 216) 0 235deg, 
+            rgb(216, 52, 228) 0);
+    }
+.circle{
+    display: flex;
+            justify-content: center;
+            align-items: center;
+background-color: white;
+height:60px ;
+width: 60px;
+border-radius: 50%;
+text-align: center;
+font-weight: bold;
+}
+.title{
+    font-weight: bolder;
+}
+
+
+
+       .form2{
+
+        height: 580px;
+        width: 370px;
+        background-color: rgb(214, 228, 233);
+        display: flex;
+        margin-left: 650px;
+        margin-top: -560px;
+        border-radius: 15px;
+
+       }
+       .fa-google {
+        background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+
+      }
+      .fa-apple {
+        background:black;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+      }
+      .fa-facebook{
+        background:black;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .span1{
+        background-color: white;
+        padding: 12px;
+        margin-left: 30px;
+        border-radius: 10px;
+        margin-top: -10px;
+        display: inline;
+        padding-top: 20px;
+                padding-left: 10px;
+                padding-bottom: 10px;
+
+      } 
+      .span2{
+
+
+        background-color: white;
+        padding: 12px;
+        margin-left: 30px;
+        border-radius: 10px;
+        margin-top: -10px;
+        display: inline;
+        padding-top: 20px;
+                padding-left: 10px;
+                padding-bottom: 10px;
+
+              } 
+              .span3
+              {
+
+                align-items: center;
+                justify-items: center;
+                width: 10px;
+                height: 30px;
+                background-color: rgb(255, 255, 255);
+                padding: 12px;
+                padding-top: 20px;
+                padding-left: 10px;
+                padding-bottom: 10px;
+                margin-left: 30px;
+                border-radius: 10px;
+
+
+                      }
+                      .title1{
+                        text-align: center;
+                        justify-content: center;
+                       padding-left: 20px;
+                       margin-bottom: 10px;
+
+                        margin-left: 100px;
+
+
+                      } 
+                      .title3{
+                        margin-bottom: 10px;
+                        text-align: center;
+                        justify-content: center;
+                      }
+                      .label1{
+                     font-size: 15px;
+                     font-family: sans-serif;
+                        margin-left: 25px;
+
+                        margin-bottom: 10px;
+                      }
+                      .names{
+                        margin-left:25px ;
+                        background-color: white;
+                        height: 25px;
+                        width: 315px;
+                        border-style: solid;
+                        border-color: white;
+                        border-radius: 3px;
+                        margin-bottom: 10px;
+                      }
+                      .email{
+                        margin-bottom: 10px;
+                        margin-left:25px ;
+                        background-color: white;
+                        height: 25px;
+                        width: 315px;
+                        border-style: solid;
+                        border-color: white;
+                        border-radius: 3px;
+                      }
+
+                      .password{
+                        margin-bottom: 10px;
+                        margin-left:25px ;
+                        background-color: white;
+                        height: 25px;
+                        width: 315px;
+                        border-style: solid;
+                        border-color: white;
+                        border-radius: 3px;
+                      }
+
+
+                      #check{
+
+                        height: 20px;
+                        width: 25px;
+                        margin-left: 25px;
+                        margin-bottom: 5px;
+                      }
+                      .policy{
+                         margin-left: -31px;
+                         font-family: sans-serif;
+                         font-size: 1px;
+                      }
+                      .account{
+                        margin-left: 28px;
+                        font-family: sans-serif;
+                        font-size: 12px;
+                     }
+                     .account1{
+                        margin-left: 86px;
+                        font-family: sans-serif;
+                        font-size: 12px;
+                        margin-bottom: 10px;
+                     }button{
+                        margin-bottom: 10px;
+                        width: 250px;
+                        height: 30px;
+                        background-color: blue;
+                        border-style: solid;
+                        border-color: blue;
+                        border-radius: 5px;
+                        margin-left:30px ;
+                     }
+                     .go{
+                        margin-left:27px ;
+                        margin-bottom: 30px;
+
+                      }
+                      .must{
+                        margin-bottom: 40px;
+                        margin-left: 27px;
+                      }
+                      .message-icon{
+
+                        width: 60px;
+                        height: 60px;
+                        background-color:blue ;
+                        margin-left: 1030px;
+                        border-radius: 100%;
+                      }
+
+
